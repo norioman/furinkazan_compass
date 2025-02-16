@@ -152,7 +152,7 @@ if st.session_state.get("scores") is not None:
 
     # 結果共有機能（グラフも共有URLも通常のUI内に表示）
     if st.button("結果を共有する"):
-        base_url = "http://localhost:8501"  # デプロイ時は実際のURLに変更
+        base_url = "https://furinkazancompass.streamlit.app/"  # デプロイ時は実際のURLに変更
         params = {
             "wind": computed_scores["風"],
             "forest": computed_scores["林"],
