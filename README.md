@@ -1,0 +1,1 @@
+# furinkazan_compass
